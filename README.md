@@ -6,14 +6,14 @@ It allows users to manage Users, Income, and Expenses through standard CRUD oper
 
 ## Features 
 
-- Users API: Create, Read, Update, and Delete users.
-- Income API: Track income sources with CRUD operations.
-- Expenses API: Manage expenses with CRUD operations.
-- Firebase Integration: Uses Firebase as the database.
-- Error Handling: Consistent and structured responses for errors and successful requests.
+1. Users API: Create, Read, Update, and Delete users.
+2. Income API: Track income sources with CRUD operations.
+3. Expenses API: Manage expenses with CRUD operations.
+4. Firebase Integration: Uses Firebase as the database.
+5. Error Handling: Consistent and structured responses for errors and successful requests.
 
 ## Project Structure 
-
+```
 /SIMPLE REST API
 |-- /config
 |   |-- firebase.json
@@ -32,7 +32,7 @@ It allows users to manage Users, Income, and Expenses through standard CRUD oper
 |-- package-lock.json
 |-- package.json
 |-- README.md
-
+```
 ## Installation and Setup 
 
 1. Navigate to the project folder
@@ -47,11 +47,11 @@ This creates a package.json file.
 ---terminal---
 npm install express dotenv firebase-admin cors body-parser
 
--- express → Web framework for Node.js
--- dotenv → Loads environment variables
--- firebase-admin → Allows interaction with Firebase
--- cors → Enables Cross-Origin Resource Sharing
--- body-parser → Parses incoming request bodies
+1. express → Web framework for Node.js
+2. dotenv → Loads environment variables
+3. firebase-admin → Allows interaction with Firebase
+4. cors → Enables Cross-Origin Resource Sharing
+5. body-parser → Parses incoming request bodies
 
 For development, install nodemon (optional but recommended):
 ---terminal---
