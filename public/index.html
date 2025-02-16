@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignmet 7</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Project Assignment: Simple REST API</h1>
+        <p>This API provides functionality for managing Users, Income, and Expenses.</p>
+
+        <section>
+            <h2>Base API_URL</h2>
+            <p><code>http://localhost:8000</code></p>
+        </section>
+
+        <section>
+            <h2>Users Endpoints</h2>
+            <p><strong>GET /users</strong> - Retrieve all users</p>
+            <p><strong>POST /users</strong> - Add a new user (requires JSON body with new user's data like name, username, email, etc.)</p>
+            <p><strong>PUT /users/:id</strong> - Update an existing user by ID (requires JSON body with updated fields)</p>
+            <p><strong>DELETE /users/:id</strong> - Delete a user by ID</p>
+        </section>
+
+        <section>
+            <h2>Income Endpoints</h2>
+            <p><strong>GET /income</strong> - Retrieve all income records</p>
+            <p><strong>POST /income</strong> - Add a new income (requires JSON body with new data like source and amount)</p>
+            <p><strong>PUT /income/:id</strong> - Update an existing income record by ID</p>
+            <p><strong>DELETE /income/:id</strong> - Delete an income record by ID</p>
+        </section>
+
+        <section>
+            <h2>Expenses Endpoints</h2>
+            <p><strong>GET /expenses</strong> - Retrieve all expense records</p>
+            <p><strong>POST /expenses</strong> - Add a new expense (requires JSON body with category and amount)</p>
+            <p><strong>PUT /expenses/:id</strong> - Update an existing expense record by ID</p>
+            <p><strong>DELETE /expenses/:id</strong> - Delete an expense record by ID</p>
+        </section>
+
+        <section>
+            <h2>Request & Response Format</h2>
+            <p><strong>Example POST Request (JSON Body for Users)</strong></p>
+            <pre>
+{
+    "name": "Harry Potter",
+    "username": "HaPo",
+    "email": "harry@potter.com"
+}
+            </pre>
+
+            <p><strong>Example Response</strong></p>
+            <pre>
+{
+    "id": 1,
+    "name": "Harry Potter",
+    "username": "HaPo",
+    "email": "harry@potter.com"
+}
+            </pre>
+        </section>
+
+        <section>
+            <h2>Error Handling</h2>
+            <p>All responses follow a consistent structure for errors and successful requests:</p>
+            <pre>
+{
+    "error": "User was not found"
+}
+            </pre>
+
+            <pre>
+{
+    "message": "New user has been created successfuly"
+}
+            </pre>
+        </section>
+
+    </div>
+</body>
+</html>
+
+
+
