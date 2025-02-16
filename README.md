@@ -47,11 +47,11 @@ This creates a package.json file.
 ---terminal---
 npm install express dotenv firebase-admin cors body-parser
 
-1. express → Web framework for Node.js
-2. dotenv → Loads environment variables
-3. firebase-admin → Allows interaction with Firebase
-4. cors → Enables Cross-Origin Resource Sharing
-5. body-parser → Parses incoming request bodies
+	1. express → Web framework for Node.js
+	2. dotenv → Loads environment variables
+	3. firebase-admin → Allows interaction with Firebase
+	4. cors → Enables Cross-Origin Resource Sharing
+	5. body-parser → Parses incoming request bodies
 
 For development, install nodemon (optional but recommended):
 ---terminal---
