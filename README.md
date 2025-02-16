@@ -4,7 +4,7 @@ This project is a simple REST API built using Node.js, Express, and Firebase.
 It allows users to manage Users, Income, and Expenses through standard CRUD operations.
 
 
-* Features *
+## Features 
 
 - Users API: Create, Read, Update, and Delete users.
 - Income API: Track income sources with CRUD operations.
@@ -12,7 +12,7 @@ It allows users to manage Users, Income, and Expenses through standard CRUD oper
 - Firebase Integration: Uses Firebase as the database.
 - Error Handling: Consistent and structured responses for errors and successful requests.
 
-* Project Structure * 
+## Project Structure 
 
 /SIMPLE REST API
 |-- /config
@@ -32,9 +32,8 @@ It allows users to manage Users, Income, and Expenses through standard CRUD oper
 |-- package-lock.json
 |-- package.json
 |-- README.md
-```
 
-* Installation and Setup * 
+## Installation and Setup 
 
 1. Navigate to the project folder
 ---terminal---
@@ -79,7 +78,7 @@ npx nodemon index.js
 The server will start on `http://localhost:8000`.
 
 
-* API Endpoints *
+## API Endpoints 
 
 Users API
    Method - Endpoint       - Description
@@ -103,7 +102,7 @@ Expenses API
 4. DELETE - `/expenses/:id` - Delete an expense         
 
 
-* Example Requests * 
+## Example Requests 
 
 ---POST /users---
 
@@ -125,7 +124,7 @@ Expenses API
 }
 
 
----Error Handling---
+## Error Handling
 
 All errors return a consistent JSON response and successful requests:
 
@@ -133,17 +132,17 @@ All errors return a consistent JSON response and successful requests:
     "error": "User was not found"
 }
 
----
-{
-    "message": "New user has been created successfuly"
-}
----
 
-* Styling * 
+{
+    "message": "New user has been created successfully"
+}
+
+
+## Styling 
 
 The project has additional files: index.html and style.css, to create a more user-friendly web browser interface providing general information about features.
 
-* Conclusion * 
+## Conclusion 
 
 This Simple REST API project demonstrates the core principles of backend development using Node.js, Express, and Firebase. 
 It provides a structured and efficient way to manage Users, Income, and Expenses with full CRUD functionality. 
