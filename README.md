@@ -1,4 +1,4 @@
-Project Assignment 7: Simple REST API (Node.js + Express + Firebase)
+## Project Assignment 7: Simple REST API (Node.js + Express + Firebase)
 
 This project is a simple REST API built using Node.js, Express, and Firebase. 
 It allows users to manage Users, Income, and Expenses through standard CRUD operations.
