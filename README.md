@@ -47,11 +47,11 @@ This creates a package.json file.
 ---terminal---
 npm install express dotenv firebase-admin cors body-parser
 
-express → Web framework for Node.js
-dotenv → Loads environment variables
-firebase-admin → Allows interaction with Firebase
-cors → Enables Cross-Origin Resource Sharing
-body-parser → Parses incoming request bodies
+-- express → Web framework for Node.js
+-- dotenv → Loads environment variables
+-- firebase-admin → Allows interaction with Firebase
+-- cors → Enables Cross-Origin Resource Sharing
+-- body-parser → Parses incoming request bodies
 
 For development, install nodemon (optional but recommended):
 ---terminal---
@@ -59,11 +59,11 @@ npm install --save-dev nodemon
 
 
 3. Set Up Firebase
-	a. Go to (https://console.firebase.google.com/).
-	b. Create a new project.
-	c. Set up Firestore Database.
-	d. Generate a private key file for Firebase Admin SDK.
-	e. Save the `.json` key file and update the `.env` file.
+	1. Go to (https://console.firebase.google.com/).
+	2. Create a new project.
+	3. Set up Firestore Database.
+	4. Generate a private key file for Firebase Admin SDK.
+	5. Save the `.json` key file and update the `.env` file.
 
 4. Configure Environment Variables
 Create a `.env` file in the root directory:
@@ -75,7 +75,7 @@ PORT=8000
 ---terminal---
 npx nodemon index.js
 
-The server will start on `http://localhost:8000`.
+The server will start on (http://localhost:8000).
 
 
 ## API Endpoints 
